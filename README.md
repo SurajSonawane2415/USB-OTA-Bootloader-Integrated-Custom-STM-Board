@@ -30,6 +30,19 @@
   </p>
 </p>
 
+## Table of Contents
+
+- [USB-OTA-Firmware-Integrated-Custom-STM-Board](#usb-ota-firmware-integrated-custom-stm-board)
+  - [Table of Contents](#table-of-contents)
+  - [About The Project](#about-the-project)
+    - [Project Workflow](#project-workflow)
+    - [STM32 USB Bootloader](#stm32-usb-bootloader)
+    - [STM32 OTA Bootloader](#stm32-ota-bootloader)
+    - [STM32 Custom Developement Board](#stm32-custom-developement-board)
+  - [Contributor](#contributor)
+  - [Resources](#resources)
+  - [Acknowledgements](#acknowledgements)
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 [Screenshould should include USB OTA detected screenshot and PCB image]
@@ -46,96 +59,29 @@ Of course, no one template will serve all projects since your needs may be diffe
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
-### Built With
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-* [Bootstrap](https://getbootstrap.com)
-* [JQuery](https://jquery.com)
-* [Laravel](https://laravel.com)
-
-
-
-<!-- GETTING STARTED -->
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-```sh
-npm install npm@latest -g
-```
-
-### Installation
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-```sh
-git clone https://github.com/your_username_/Project-Name.git
-```
-3. Install NPM packages
-```sh
-npm install
-```
-4. Enter your API in `config.js`
-```JS
-const API_KEY = 'ENTER YOUR API';
-```
-
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
 <!-- ROADMAP -->
-## 🚧 Roadmap
+## Project Workflow
 
 - [x] Implemented USB Bootloader
 - [x] Implemented OTA Bootloader
 - [x] Designed Custom STM Board (PCB) in KiCad
 - [ ] Manufacturing, Assembly, and Testing
 
+## STM32 USB Bootloader
 
+## STM32 OTA Bootloader
+
+## STM32 Custom Developement Board
+
+## Hardware and Software Used
 
 <!-- CONTRIBUTING -->
 ## Contributor
 - [Suraj Sonawane](https://github.com/SurajSonawane2415/) - [mail](mailto:surajsonawane0215@gmail.com)
 
-
-
-
-<!-- LICENSE -->
-## 📝 License
-Describe your License for your project. 
-
-Distributed under the MIT License. See `LICENSE` for more information.
-
-
-
-<!-- CONTACT -->
-## 📫 Contact
-
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
-
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
-
-
-
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 I would like to express my heartfelt gratitude to [Prof. Sidharth Tallur](https://www.ee.iitb.ac.in/web/people/siddharth-tallur/) for his invaluable guidance and support throughout my internship at [WEL Lab, IIT Bombay.](https://www.ee.iitb.ac.in/~wel_iitb/index.php) I also extend my sincere thanks to Mr. Ankur Agrawal, Maheshwar Manghgat, and Amit Shete for providing the resources and creating a supportive environment that greatly facilitated my learning and growth during this period..
-
-
-
-
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
