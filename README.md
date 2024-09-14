@@ -36,7 +36,7 @@
   - [Table of Contents](#table-of-contents)
   - [About The Project](#about-the-project)
     - [Project Workflow](#project-workflow)
-    - [STM32 USB Bootloader](#stm32-usb-bootloader)
+    - [STM32 USB DFU Bootloader](#stm32-usb-dfu-bootloader)
     - [STM32 OTA Bootloader](#stm32-ota-bootloader)
     - [STM32 Custom Developement Board](#stm32-custom-developement-board)
   - [Contributor](#contributor)
@@ -83,10 +83,15 @@ The ESP32 communicates with the STM32 via UART, transferring the firmware in chu
 
 This implementation allows remote firmware updates without physical access, making it ideal for field-deployed systems requiring periodic updates.
 ## STM32 Custom Developement Board
+The custom development board is built around the STM32F103RBT6 microcontroller, featuring a 64-pin LQFP package and an Arduino shield-compatible layout. It incorporates an ESP32-WROOM-32D module for dual-core Wi-Fi and Bluetooth communication. The board features protection diodes for over-voltage and reverse polarity protection, along with a slider switch for boot mode selection (enabling easy access to boot0/boot1 for flashing or debugging). It also includes a 32.768kHz crystal for real-time clock (RTC) functionality, and an 8MHz crystal for the main system clock, ensuring precise timing. Additionally, sensor ports, power regulation circuits, and GPIO breakout headers enhance its functionality, making it ideal for high-performance embedded applications.
 
+## Features
+- **Arduino Shield Compatibility:** Standard headers for easy integration with Arduino-compatible shields and peripherals.
+- **Integrated OTA Bootloader:** Supports Wireless over-the-air firmware updates enabled via the onboard ESP32 module.
+- **Integrated USB Bootloader:** Supports firmware flashing via USB, eliminating the need for external programmers.
+- **Onboard Wi-Fi Module:** ESP32-WROOM-32D module for seamless integration with Wi-Fi-based projects.
+  
 ## Hardware and Software Used
-
-## Features of custom dev board
 
 <!-- CONTRIBUTING -->
 ## Contributor
@@ -95,6 +100,9 @@ This implementation allows remote firmware updates without physical access, maki
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 I would like to express my heartfelt gratitude to [Prof. Sidharth Tallur](https://www.ee.iitb.ac.in/web/people/siddharth-tallur/) for his invaluable guidance and support throughout my internship at [WEL Lab, IIT Bombay.](https://www.ee.iitb.ac.in/~wel_iitb/index.php) I also extend my sincere thanks to Mr. Ankur Agrawal, Maheshwar Manghgat, and Amit Shete for providing the resources and creating a supportive environment that greatly facilitated my learning and growth during this period..
+
+## Resources
+- 
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
