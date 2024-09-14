@@ -12,7 +12,7 @@
     <img src="./logo.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">USB OTA Firmware Integrated Custom STM Board</h3>
+  <h3 align="center">USB OTA Bootloader Integrated Custom STM Board</h3>
 
   <p align="center">
     USB & OTA Bootloader Firmware with Custom STM32 Board Design and Integrated Wi-Fi!
@@ -32,7 +32,7 @@
 
 ## Table of Contents
 
-- [USB-OTA-Firmware-Integrated-Custom-STM-Board](#usb-ota-firmware-integrated-custom-stm-board)
+- [USB-OTA-Bootloader-Integrated-Custom-STM-Board](#usb-ota-firmware-integrated-custom-stm-board)
   - [Table of Contents](#table-of-contents)
   - [About The Project](#about-the-project)
     - [Project Workflow](#project-workflow)
@@ -40,8 +40,8 @@
     - [STM32 OTA Bootloader](#stm32-ota-bootloader)
     - [STM32 Custom Developement Board](#stm32-custom-developement-board)
   - [Contributor](#contributor)
-  - [Resources](#resources)
   - [Acknowledgements](#acknowledgements)
+  - [Resources](#resources)
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -107,10 +107,10 @@ I would like to express my heartfelt gratitude to [Prof. Sidharth Tallur](https:
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [forks-shield]: https://img.shields.io/github/forks/roshanlam/ReadMeTemplate?style=for-the-badge
-[forks-url]: https://github.com/roshanlam/ReadMeTemplate/network/members
+[forks-url]: https://github.com/SurajSonawane2415/USB-OTA-Bootloader-Integrated-Custom-STM-Board/network/members
 [stars-shield]: https://img.shields.io/github/stars/roshanlam/ReadMeTemplate?style=for-the-badge
-[stars-url]: https://github.com/roshanlam/ReadMeTemplate/stargazers
+[stars-url]: https://github.com/SurajSonawane2415/USB-OTA-Bootloader-Integrated-Custom-STM-Board/stargazers
 [issues-shield]: https://img.shields.io/github/issues/roshanlam/ReadMeTemplate?style=for-the-badge
-[issues-url]: https://github.com/roshanlam/ReadMeTemplate/issues
+[issues-url]: https://github.com/SurajSonawane2415/USB-OTA-Bootloader-Integrated-Custom-STM-Board/issues
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/roshan-lamichhane
+[linkedin-url]: https://www.linkedin.com/in/suraj-sonawane-aba34b231/
