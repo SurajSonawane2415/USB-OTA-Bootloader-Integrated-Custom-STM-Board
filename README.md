@@ -48,32 +48,45 @@
 [Screenshould should include USB OTA detected screenshot and PCB image]
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-There are many great README templates available on GitHub, however, I didn't find one that really suited my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+The project involves developing a custom STM32 board with integrated USB and Over-the-Air (OTA) bootloader capabilities, featuring an onboard ESP32 Wi-Fi module. Users can flash firmware onto the STM32 microcontroller either through USB using DFU mode or wirelessly via Wi-Fi for remote updates. The USB bootloader ensures secure and validated firmware updates, while the OTA bootloader simplifies wireless updates without requiring physical access. The custom PCB is designed around the STM32F103 microcontroller, optimized for seamless USB and Wi-Fi communication. The onboard ESP32 enables the board to be used in various Wi-Fi-based projects, including IoT applications and remote monitoring systems. This makes the board highly versatile for developers working on embedded and network-connected systems.
 
 <!-- ROADMAP -->
 ## Project Workflow
 
-- [x] Implemented USB Bootloader
-- [x] Implemented OTA Bootloader
-- [x] Designed Custom STM Board (PCB) in KiCad
-- [ ] Manufacturing, Assembly, and Testing
 
-## STM32 USB Bootloader
+- **Implemented USB Bootloader**: Developed a USB bootloader using DFU mode for firmware updates via USB.
+
+- **Implemented OTA Bootloader**: Developed an OTA bootloader using the onboard ESP32 Wi-Fi module, enabling wireless firmware updates.
+
+- **Custom STM Board Design**: Designed a custom PCB for the STM32F103 microcontroller in KiCad, optimized for USB and Wi-Fi communication.
+
+- **Currently Manufacturing and Testing**: The board is in the manufacturing stage. After that, I will proceed with assembly and testing.
+  
+
+## STM32 USB DFU Bootloader
+![Screenshot from 2024-09-14 20-33-01](https://github.com/user-attachments/assets/9d402195-a547-463c-9dd0-7403b293701a)
+
+The USB DFU Bootloader is a custom firmware update solution designed for STM32 microcontrollers, leveraging the USB Device Firmware Upgrade (DFU) protocol for standardized and efficient firmware updates. It initializes the USB peripheral and handles DFU control and data transfer requests through a dedicated state machine. The bootloader is placed in the flash memory's beginning and checks for boot conditions to decide whether to enter DFU mode or execute the main application. A post-build script for STM32CubeIDE automates firmware uploading using STM32CubeProgrammer, ensuring streamlined deployment and updates. This implementation supports reliable firmware management and easy upgrades in a standardized manner.
+
+- **USB DFU bootloader sequence:**
+
+![Screenshot from 2024-09-14 19-51-09](https://github.com/user-attachments/assets/24cde5f7-1ba8-4b21-931d-8e63031bc1cd)
+
 
 ## STM32 OTA Bootloader
 
+![Screenshot from 2024-09-14 22-02-10](https://github.com/user-attachments/assets/a09a670c-4588-4679-bcb2-071e1805a806)
+
+The STM32 OTA Bootloader enables firmware updates over UART using an ESP32 as the host for over-the-air (OTA) updates. The custom bootloader on the STM32 receives the new firmware from the ESP32, writes it to flash memory (128 KB in size), and verifies the integrity using a verifyFlashedData function to ensure data accuracy.
+
+The ESP32 communicates with the STM32 via UART, transferring the firmware in chunks and triggering a reboot once the transfer is complete. Error handling is implemented to prevent booting corrupted firmware, ensuring the system only runs verified updates. The bootloader also carefully manages flash memory, avoiding conflicts with existing data.
+
+This implementation allows remote firmware updates without physical access, making it ideal for field-deployed systems requiring periodic updates.
 ## STM32 Custom Developement Board
 
 ## Hardware and Software Used
+
+## Features of custom dev board
 
 <!-- CONTRIBUTING -->
 ## Contributor
