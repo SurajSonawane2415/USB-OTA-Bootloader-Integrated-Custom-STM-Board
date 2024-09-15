@@ -8,7 +8,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/roshanlam/ReadMeTemplate/">
+  <a href="https://github.com/SurajSonawane2415/USB-OTA-Bootloader-Integrated-Custom-STM-Board/4">
     <img src="./assets/microcontroller-icon-3.png" alt="Logo" width="120" height="120">
   </a>
 
@@ -31,14 +31,15 @@
 </p>
 
 ## Table of Contents
-
 - [USB-OTA-Bootloader-Integrated-Custom-STM-Board](#usb-ota-bootloader-integrated-custom-stm-board)
   - [Table of Contents](#table-of-contents)
   - [About The Project](#about-the-project)
     - [Project Workflow](#project-workflow)
     - [STM32 USB DFU Bootloader](#stm32-usb-dfu-bootloader)
     - [STM32 OTA Bootloader](#stm32-ota-bootloader)
-    - [STM32 Custom Developement Board](#stm32-custom-developement-board)
+    - [STM32 Custom Development Board](#stm32-custom-development-board)
+    - [Project Outcomes](#project-outcomes)
+    - [Features](#features)
   - [Contributor](#contributor)
   - [Acknowledgements](#acknowledgements)
   - [Resources](#resources)
@@ -87,7 +88,9 @@ The STM32 OTA Bootloader enables firmware updates over UART using an ESP32 as th
 The ESP32 communicates with the STM32 via UART, transferring the firmware in chunks and triggering a reboot once the transfer is complete. Error handling is implemented to prevent booting corrupted firmware, ensuring the system only runs verified updates. The bootloader also carefully manages flash memory, avoiding conflicts with existing data.
 
 This implementation allows remote firmware updates without physical access, making it ideal for field-deployed systems requiring periodic updates.
-## STM32 Custom Developement Board
+
+## STM32 Custom Development Board
+
 The custom development board is built around the STM32F103RBT6 microcontroller, featuring a 64-pin LQFP package and an Arduino shield-compatible layout. It incorporates an ESP32-WROOM-32D module for dual-core Wi-Fi and Bluetooth communication. The board features protection diodes for over-voltage and reverse polarity protection, along with a slider switch for boot mode selection (enabling easy access to boot0/boot1 for flashing or debugging). It also includes a 32.768kHz crystal for real-time clock (RTC) functionality, and an 8MHz crystal for the main system clock, ensuring precise timing. Additionally, sensor ports, power regulation circuits, and GPIO breakout headers enhance its functionality, making it ideal for high-performance embedded applications.
 
 ## Features
@@ -115,7 +118,7 @@ The custom development board is built around the STM32F103RBT6 microcontroller, 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-I would like to express my heartfelt gratitude to [Prof. Sidharth Tallur](https://www.ee.iitb.ac.in/web/people/siddharth-tallur/) for his invaluable guidance and support throughout my internship at [WEL Lab, IIT Bombay.](https://www.ee.iitb.ac.in/~wel_iitb/index.php) I also extend my sincere thanks to Mr. Ankur Agrawal, Maheshwar Manghgat, and Amit Shete for providing the resources and creating a supportive environment that greatly facilitated my learning and growth during this period..
+I would like to express my heartfelt gratitude to [Prof. Sidharth Tallur](https://www.ee.iitb.ac.in/web/people/siddharth-tallur/) for his invaluable guidance and support throughout my internship at [WEL Lab, IIT Bombay.](https://www.ee.iitb.ac.in/~wel_iitb/index.php) I also extend my sincere thanks to Mr. Ankur Agrawal, Maheshwar Manghgat, and Amit Shete for providing the resources and creating a supportive environment that greatly facilitated my learning and growth during this period.
 
 ## Resources
 
