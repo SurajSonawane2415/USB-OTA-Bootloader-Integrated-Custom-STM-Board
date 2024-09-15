@@ -9,7 +9,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/roshanlam/ReadMeTemplate/">
-    <img src="./logo.png" alt="Logo" width="80" height="80">
+    <img src="./assets/microcontroller-icon-3.png" alt="Logo" width="120" height="120">
   </a>
 
   <h3 align="center">USB OTA Bootloader Integrated Custom STM Board</h3>
@@ -32,7 +32,7 @@
 
 ## Table of Contents
 
-- [USB-OTA-Bootloader-Integrated-Custom-STM-Board](#usb-ota-firmware-integrated-custom-stm-board)
+- [USB-OTA-Bootloader-Integrated-Custom-STM-Board](#usb-ota-bootloader-integrated-custom-stm-board)
   - [Table of Contents](#table-of-contents)
   - [About The Project](#about-the-project)
     - [Project Workflow](#project-workflow)
