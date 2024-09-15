@@ -93,6 +93,17 @@ The custom development board is built around the STM32F103RBT6 microcontroller, 
   
 ## Hardware and Software Used
 
+#### Hardware:
+- **STM32F103RBT6**: Main microcontroller with 64-pin configuration.
+- **ESP32-WROOM-32D**: Onboard Wi-Fi module for OTA updates and wireless communication.
+
+#### Software:
+- **STM32CubeIDE**: IDE for developing and debugging STM32 applications.
+- **STM32CubeProgrammer**: Tool for programming and managing firmware updates via USB.
+- **libopencm3**: Open-source library for STM32 peripheral control.
+- **dfu-util**: Tool for performing USB Device Firmware Upgrade (DFU) on STM32.
+- **Batch Script**: Automates firmware flashing with STM32CubeIDE.
+
 <!-- CONTRIBUTING -->
 ## Contributor
 - [Suraj Sonawane](https://github.com/SurajSonawane2415/) - [mail](mailto:surajsonawane0215@gmail.com)
@@ -102,7 +113,11 @@ The custom development board is built around the STM32F103RBT6 microcontroller, 
 I would like to express my heartfelt gratitude to [Prof. Sidharth Tallur](https://www.ee.iitb.ac.in/web/people/siddharth-tallur/) for his invaluable guidance and support throughout my internship at [WEL Lab, IIT Bombay.](https://www.ee.iitb.ac.in/~wel_iitb/index.php) I also extend my sincere thanks to Mr. Ankur Agrawal, Maheshwar Manghgat, and Amit Shete for providing the resources and creating a supportive environment that greatly facilitated my learning and growth during this period..
 
 ## Resources
-- 
+
+- [AN3156: USB DFU Protocol used in STM32 Bootloader (ST)](https://www.st.com/resource/en/application_note/an3156-usb-dfu-protocol-used-in-the-stm32-bootloader-stmicroelectronics.pdf)
+- [AN3155: USART Protocol used in STM32 Bootloader (ST)](https://www.st.com/resource/en/application_note/an3155-usart-protocol-used-in-the-stm32-bootloader-stmicroelectronics.pdf)
+- [KiCad Tutorial Playlist](https://youtube.com/playlist?list=PL3bNyZYHcRSUhUXUt51W6nKvxx2ORvUQB&si=sIpOzehl4u3am8eR)
+- [libopencm3](https://github.com/libopencm3/libopencm3): An open-source library for ARM Cortex-M microcontrollers that simplifies working with low-level hardware interfaces by providing essential peripheral support for STM32.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
