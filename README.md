@@ -17,16 +17,16 @@
   <p align="center">
     USB & OTA Bootloader Firmware with Custom STM32 Board Design and Integrated Wi-Fi!
     <br />
-    <a href="https://github.com/roshanlam/ReadMeTemplate/"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/SurajSonawane2415/USB-OTA-Bootloader-Integrated-Custom-STM-Board?tab=readme-ov-file#table-of-contents"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/roshanlam/ReadMeTemplate/">View Demo</a>
+    <a href="https://github.com/SurajSonawane2415/USB-OTA-Bootloader-Integrated-Custom-STM-Board/">View Outcomes</a>
     ·
-    <a href="https://github.com/roshanlam/ReadMeTemplate/issues">Report Bug</a>
+    <a href="https://github.com/SurajSonawane2415/USB-OTA-Bootloader-Integrated-Custom-STM-Board/issues">Report Bug</a>
     ·
-    <a href="https://github.com/roshanlam/ReadMeTemplate/issues">Request Feature</a>
+    <a href="https://github.com/SurajSonawane2415/USB-OTA-Bootloader-Integrated-Custom-STM-Board/issues">Request Feature</a>
     ·
-    <a href="https://github.com/roshanlam/ReadMeTemplate/pulls">Send a Pull Request</a>
+    <a href="https://github.com/SurajSonawane2415/USB-OTA-Bootloader-Integrated-Custom-STM-Board/pulls">Send a Pull Request</a>
   </p>
 </p>
 
@@ -64,18 +64,23 @@ The project involves developing a custom STM32 board with integrated USB and Ove
   
 
 ## STM32 USB DFU Bootloader
-![Screenshot from 2024-09-14 20-33-01](https://github.com/user-attachments/assets/9d402195-a547-463c-9dd0-7403b293701a)
+<p align="center">
+    <img src="./assets/usb1.png" alt="usb1" width="400" height="300">
+</p>
 
 The USB DFU Bootloader is a custom firmware update solution designed for STM32 microcontrollers, leveraging the USB Device Firmware Upgrade (DFU) protocol for standardized and efficient firmware updates. It initializes the USB peripheral and handles DFU control and data transfer requests through a dedicated state machine. The bootloader is placed in the flash memory's beginning and checks for boot conditions to decide whether to enter DFU mode or execute the main application. A post-build script for STM32CubeIDE automates firmware uploading using STM32CubeProgrammer, ensuring streamlined deployment and updates. This implementation supports reliable firmware management and easy upgrades in a standardized manner.
 
 - **USB DFU bootloader sequence:**
 
-![Screenshot from 2024-09-14 19-51-09](https://github.com/user-attachments/assets/24cde5f7-1ba8-4b21-931d-8e63031bc1cd)
-
+<p align="center">
+    <img src="./assets/usb2.png" alt="usb2" width="400" height="700">
+</p>
 
 ## STM32 OTA Bootloader
 
-![Screenshot from 2024-09-14 22-02-10](https://github.com/user-attachments/assets/a09a670c-4588-4679-bcb2-071e1805a806)
+<p align="center">
+    <img src="./assets/ota.png" alt="Logo" width="800" height="300">
+</p>
 
 The STM32 OTA Bootloader enables firmware updates over UART using an ESP32 as the host for over-the-air (OTA) updates. The custom bootloader on the STM32 receives the new firmware from the ESP32, writes it to flash memory (128 KB in size), and verifies the integrity using a verifyFlashedData function to ensure data accuracy.
 
