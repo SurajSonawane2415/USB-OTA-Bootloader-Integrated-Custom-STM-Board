@@ -46,8 +46,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-[Screenshould should include USB OTA detected screenshot and PCB image]
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 The project involves developing a custom STM32 board with integrated USB and Over-the-Air (OTA) bootloader capabilities, featuring an onboard ESP32 Wi-Fi module. Users can flash firmware onto the STM32 microcontroller either through USB using DFU mode or wirelessly via Wi-Fi for remote updates. The USB bootloader ensures secure and validated firmware updates, while the OTA bootloader simplifies wireless updates without requiring physical access. The custom PCB is designed around the STM32F103 microcontroller, optimized for seamless USB and Wi-Fi communication. The onboard ESP32 enables the board to be used in various Wi-Fi-based projects, including IoT applications and remote monitoring systems. This makes the board highly versatile for developers working on embedded and network-connected systems.
 
@@ -143,7 +141,7 @@ The custom development board is built around the STM32F103RBT6 microcontroller, 
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
-I would like to express my heartfelt gratitude to [Prof. Sidharth Tallur](https://www.ee.iitb.ac.in/web/people/siddharth-tallur/) for his invaluable guidance and support throughout my internship at [WEL Lab, IIT Bombay.](https://www.ee.iitb.ac.in/~wel_iitb/index.php) I also extend my sincere thanks to Mr. Ankur Agrawal, Maheshwar Manghgat, and Amit Shete for providing the resources and creating a supportive environment that greatly facilitated my learning and growth during this period.
+Special thanks to [Prof. Sidharth Tallur](https://www.ee.iitb.ac.in/web/people/siddharth-tallur/) for his guidance and support throughout my internship at [WEL Lab, IIT Bombay](https://www.ee.iitb.ac.in/~wel_iitb/index.php). I also extend my sincere gratitude to Mr. Mahesh Bhanganagare, Mr. Ankur Agrawal, Mr. Maheshwar Mangat, and Mr. Amit Shetye for their guidance, resources, and creating a supportive environment that greatly helped my learning and growth.
 
 ## Resources
 
