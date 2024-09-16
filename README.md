@@ -96,10 +96,27 @@ The custom development board is built around the STM32F103RBT6 microcontroller, 
 ## Project Outcomes
 
 #### STM32 USB DFU Bootloader:
+- **Firmware uploaded via STM32CubeIDE with custom USB DFU bootloader:**
+<p align="center">
+    <img src="./assets/usbdfu.png" alt="Logo" width="600" height="400">
+</p>
 
-#### STM32 OTA Bootloader: 
+#### STM32 OTA Bootloader:
+- **Wi-Fi AP for OTA firmware upload:**
+<p align="center">
+    <img src="./assets/ota1.png" alt="Logo" width="300" height="150">
+</p>
+  
+- **HTTPS file server for secure uploads:**
+<p align="center">
+    <img src="./assets/ota2.png" alt="Logo" width="1000" height="200">
+</p>
 
 #### STM32 Custom Development Board:
+- **Final PCB design image:**
+<p align="center">
+    <img src="./assets/PCB.png" alt="Logo" width="700" height="600">
+</p>
 
 ## Features
 - **Arduino Shield Compatibility:** Standard headers for easy integration with Arduino-compatible shields and peripherals.
