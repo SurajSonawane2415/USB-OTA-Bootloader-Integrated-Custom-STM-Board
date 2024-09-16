@@ -93,6 +93,14 @@ This implementation allows remote firmware updates without physical access, maki
 
 The custom development board is built around the STM32F103RBT6 microcontroller, featuring a 64-pin LQFP package and an Arduino shield-compatible layout. It incorporates an ESP32-WROOM-32D module for dual-core Wi-Fi and Bluetooth communication. The board features protection diodes for over-voltage and reverse polarity protection, along with a slider switch for boot mode selection (enabling easy access to boot0/boot1 for flashing or debugging). It also includes a 32.768kHz crystal for real-time clock (RTC) functionality, and an 8MHz crystal for the main system clock, ensuring precise timing. Additionally, sensor ports, power regulation circuits, and GPIO breakout headers enhance its functionality, making it ideal for high-performance embedded applications.
 
+## Project Outcomes
+
+#### STM32 USB DFU Bootloader:
+
+#### STM32 OTA Bootloader: 
+
+#### STM32 Custom Development Board:
+
 ## Features
 - **Arduino Shield Compatibility:** Standard headers for easy integration with Arduino-compatible shields and peripherals.
 - **Integrated OTA Bootloader:** Supports Wireless over-the-air firmware updates enabled via the onboard ESP32 module.
