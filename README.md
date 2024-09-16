@@ -20,7 +20,7 @@
     <a href="https://github.com/SurajSonawane2415/USB-OTA-Bootloader-Integrated-Custom-STM-Board?tab=readme-ov-file#table-of-contents"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/SurajSonawane2415/USB-OTA-Bootloader-Integrated-Custom-STM-Board/">View Outcomes</a>
+    <a href="https://github.com/SurajSonawane2415/USB-OTA-Bootloader-Integrated-Custom-STM-Board?tab=readme-ov-file#project-outcomes">View Outcomes</a>
     ·
     <a href="https://github.com/SurajSonawane2415/USB-OTA-Bootloader-Integrated-Custom-STM-Board/issues">Report Bug</a>
     ·
