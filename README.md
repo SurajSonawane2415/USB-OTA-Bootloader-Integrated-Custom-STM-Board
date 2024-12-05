@@ -110,6 +110,11 @@ The custom development board is built around the STM32F103RBT6 microcontroller, 
     <img src="./assets/ota2.png" alt="Logo" width="1000" height="200">
 </p>
 
+- **OTA Output:**
+<p align="center">
+    <img src="./assets/newstmimage.png" alt="Logo" width="1000" height="500">
+</p>
+
 #### STM32 Custom Development Board:
 - **Final PCB design image:**
 <p align="center">
