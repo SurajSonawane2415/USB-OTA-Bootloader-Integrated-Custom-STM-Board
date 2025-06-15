@@ -59,7 +59,7 @@ The project involves developing a custom STM32 board with integrated USB and Ove
 
 - **Custom STM Board Design**: Designed a custom PCB for the STM32F103 microcontroller in KiCad, optimized for USB and Wi-Fi communication.
 
-- **Currently Manufacturing and Testing**: The board is in the manufacturing stage. After that, I will proceed with assembly and testing.
+- **Full System Testing:** Thoroughly tested the board with all features and validated the outputs, achieving expected functionality.
   
 
 ## STM32 USB DFU Bootloader
@@ -120,6 +120,15 @@ The custom development board is built around the STM32F103RBT6 microcontroller, 
 <p align="center">
     <img src="./assets/PCB.png" alt="Logo" width="700" height="600">
 </p>
+
+## Testing
+- **Final Assembled PCB**
+
+![Screenshot from 2025-06-15 16-05-25](https://github.com/user-attachments/assets/a0551874-dd25-4584-b509-7180e2656e67)
+
+
+- **USB Bootloader Testing**
+- **OTA Feature Testing**
 
 ## Features
 - **Arduino Shield Compatibility:** Standard headers for easy integration with Arduino-compatible shields and peripherals.
