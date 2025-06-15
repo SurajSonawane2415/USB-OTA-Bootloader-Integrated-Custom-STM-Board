@@ -39,6 +39,7 @@
       - [STM32 OTA Bootloader](#stm32-ota-bootloader)
       - [STM32 Custom Development Board](#stm32-custom-development-board)
     - [Project Outcomes](#project-outcomes)
+    - [Testing](#testing)
     - [Features](#features)
   - [Contributor](#contributor)
   - [Acknowledgements](#acknowledgements)
@@ -118,17 +119,27 @@ The custom development board is built around the STM32F103RBT6 microcontroller, 
 #### STM32 Custom Development Board:
 - **Final PCB design image:**
 <p align="center">
-    <img src="./assets/PCB.png" alt="Logo" width="700" height="600">
+    <img src="./assets/PCB.png" alt="Logo" width="500" height="400">
 </p>
 
 ## Testing
 - **Final Assembled PCB**
 
-![Screenshot from 2025-06-15 16-05-25](https://github.com/user-attachments/assets/a0551874-dd25-4584-b509-7180e2656e67)
-
+<p align="center">
+    <img src="./assets/pcbasm.png" alt="Logo" width="500" height="600">
+</p>
 
 - **USB Bootloader Testing**
+
+<p align="center">
+    <img src="./assets/usb.jpeg" alt="Logo" width="600" height="600">
+</p>
+
 - **OTA Feature Testing**
+
+<p align="center">
+    <img src="./assets/ota_testing.jpeg" alt="Logo" width="600" height="500">
+</p>
 
 ## Features
 - **Arduino Shield Compatibility:** Standard headers for easy integration with Arduino-compatible shields and peripherals.
